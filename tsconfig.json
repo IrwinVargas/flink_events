@@ -1,0 +1,15 @@
+{
+  "strictNullChecks": false,
+  "compilerOptions": {
+    "target": "es6",                        
+    "module": "commonjs", 
+    "outDir": "dist",
+    "rootDir": "src",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata":true,
+    "esModuleInterop": true
+  },
+  "includes": [
+    "src"
+  ]
+}
