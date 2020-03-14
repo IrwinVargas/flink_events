@@ -6,8 +6,7 @@
     "scripts": {
         "build": "rm -rfv ./dist && tsc --project tsconfig.json",
         "test": "echo 'next'",
-        "start-dev": "npm run build && node ./dist/index.js",
-        "start": "npm install -g typescript && npm run build && node ./dist/index.js"
+        "start": "npm run build && node ./dist/index.js"
     },
     "author": "Irwin Trinidad Vargas",
     "license": "ISC",
