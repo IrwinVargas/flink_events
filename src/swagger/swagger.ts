@@ -24,6 +24,10 @@ export const swaggerDocument = {
         {
             url: 'http://localhost:3001/api/v1',
             description: 'Local server'
+        },
+        {
+            url: 'https://flink-events-staging.appspot.com/api/v1',
+            description: 'Remote server'
         }
     ],
     components: {

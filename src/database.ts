@@ -18,6 +18,7 @@ export class Database{
                  entities: [
                      __dirname + "/entity/*.entity.js",
                  ],
+                //  extra: { socketPath: `/cloudsql/${environment.DATABASE.CLOUD_SQL_CONNECTION_NAME}` } 
              });
         
     }

@@ -5,6 +5,7 @@ const log =  require('fancy-log');
 
 export const app = new App();
 const database = new Database();
+console.log(environment);
 
 
 database.createDBConnection()
